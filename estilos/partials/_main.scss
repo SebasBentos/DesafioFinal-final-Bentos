@@ -1,0 +1,77 @@
+.sobre{
+    .heading{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: 4%;
+
+        h2{
+            margin-bottom: 40px;
+            font-size: 100px;
+        }
+        
+        p{
+            text-align: center;
+            display: inline-block;
+            font-size: 50px;
+        }
+    }
+}
+.infos {
+    padding: 3em ;
+    display: flex;
+    flex-direction: row;
+    margin-top: 66px;
+    justify-content: space-around;
+
+    .detalles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img{
+            width: 200px;
+            align-items: center;
+           
+           
+        }
+
+        &
+        .detalle, h3{
+            font-size: 70px;
+            margin-top: 20px;
+            text-align: center;
+        
+        }
+
+        &
+        p{
+            font-size: 35px;
+            margin-top: 25px;       
+        }
+    }
+}
+.descripcion{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+
+    h4{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    
+
+    .text{
+        font-size: 30px;
+    }
+
+    .camaro-img{
+        width: 88vh;
+     }   
+
+}
+

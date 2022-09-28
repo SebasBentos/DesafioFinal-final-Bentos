@@ -1,0 +1,50 @@
+.img-2{
+    background-image: url("../imagen/mustan/Ford-Mach1-eu-SHOT_02_Mach_1_Dynamic_Car_to_Car-16x9-2160x1215-Gallery_D_T_M-2.jpg.renditions.extra-large.jpeg");
+    width: 100%;
+    height: 101vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+
+    .banner-text2{
+        height: 95%;
+        width: 0;
+        display: flex;
+        align-items: flex-end;
+        padding-left: 20px;
+        margin: 0.5em 0;
+        font-size: 50px;
+        color: white;
+    }
+
+    .titulos{
+        font-size: 85px;
+    }    
+}
+.img-3{ width: 100%;
+    height: 101vh;
+    background-repeat: no-repeat;
+    background-image: url("../imagen/dodge/2022-dodge-challenger-gallery-exterior-3.jpg.image.1440.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+
+    .banner-text2{
+        height: 95%;
+        width: 0;
+        display: flex;
+        align-items: flex-end;
+        padding-left: 20px;
+        margin: 0.5em 0;
+        font-size: 50px;
+        color: white;
+    }
+
+    .titulos{
+        font-size: 85px;
+    }  
+}

@@ -1,0 +1,463 @@
+
+.img-2{
+    background-image: url("../imagen/mustan/Ford-Mach1-eu-SHOT_02_Mach_1_Dynamic_Car_to_Car-16x9-2160x1215-Gallery_D_T_M-2.jpg.renditions.extra-large.jpeg");
+    width: 100%;
+    height: 101vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.img-3{ width: 100%;
+    height: 101vh;
+    background-repeat: no-repeat;
+    background-image: url("../imagen/dodge/2022-dodge-challenger-gallery-exterior-3.jpg.image.1440.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+
+
+ul{
+    display: flex;
+    align-items: center;
+}
+li{
+    display: inline-block;
+    margin-right: 28px;
+    text-align: center;
+    
+}
+.menu,a:hover{
+    color: red;
+    transition: all .3s;
+}
+.checkbtn{
+    width: 108px;
+    border-radius: -6px;
+    margin-top: 18px;
+    font-size: 30px;
+    color: white;
+    display: none;
+}
+.menu-icon, #check{
+    display: none;
+}
+
+/*.banner-text{
+    height: 80%;
+    width: 0;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 20px;
+    margin: 0.5em 0;
+    font-size: 50px;
+    color: white;
+}*/
+.banner-text2{
+    height: 95%;
+    width: 0;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 20px;
+    margin: 0.5em 0;
+    font-size: 50px;
+    color: white;
+}
+.button1{
+    padding: 16px;
+    background-color: yellow;
+    color: black;
+    border-radius: 8px;
+    font-size: 58px;
+}
+.button1:hover{
+    color: black;
+    background-color: red;
+    transition: .5s;
+}
+/*----------------------------*/
+h2{
+    font-size: 2em;
+    padding-left: 1.2em;
+    border-left: 0.1em #5bc7ca solid;
+}
+section{
+    padding: 2.5em;
+}
+
+.heading{
+    padding: 24px 10px;
+    display: flex;
+    flex-direction: column;
+}
+.heading h2{
+    margin-bottom: 40px;
+    font-size: 100px;
+} 
+.heading p{
+    margin-left: 91px;
+    display: inline-block;
+    font-size: 50px;
+}
+
+.infos {
+    padding: 3em ;
+    display: flex;
+    flex-direction: row;
+    margin-top: 66px;
+    justify-content: space-around;
+}
+
+
+.detalles{
+    display: flex;
+    flex-direction: column;
+}
+.detalles img{
+  width: 270px;
+ 
+}
+ .detalle, h3{
+    font-size: 60px;
+    margin-top: 20px;
+
+}
+.detalle, p{
+    font-size: 35px;
+    margin-top: 25px;
+
+}
+.descripcion{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.descripcion, h4{
+    font-size: 62px;
+}
+
+.text{
+    font-size: 30px;
+}
+
+.camaro-img{
+    width: 100vh;
+}
+
+video{
+    margin-top: 5px;
+    width: 100%;
+    height: 100vh;
+}
+footer{
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.LogoFin{
+    height: 80px;
+    margin-bottom: 1rem;
+}
+.social-icons-container, .footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+.social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #f2f2f2;
+    background-image: url("../imagen/items/instagram-6338392_1280.webp");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+.social-icon:hover{
+    background-color: #121212;
+    filter: invert(1);
+}
+.social-icon:nth-of-type(2){
+    background-image: url("../imagen/items/Facebook_Logo_\(2019\).png");
+
+}
+.social-icon:nth-of-type(3){
+    background-image: url("../imagen/items/twi.png");
+    
+}.social-icon:nth-of-type(4){
+    background-image: url("../imagen/items/whatsapp-logo-1.png");
+    
+}
+.menu-item{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.copyright{
+    color: #f2f2f2;
+    opacity: 0.3;
+    text-align: center;
+}
+.registro{
+    width: 375px;
+    background-color: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 230px;
+    margin-bottom: 100px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000; }
+
+
+     .titulo-formulario {
+    font-size: 22px;
+    margin-bottom: 20px; }
+
+
+    .text-formulario{
+        height: 40px;
+        align-items: center;
+        font-size: 18px;
+        line-height: 40px;
+    
+    }
+
+   
+   .controls{
+        width: 100%;
+        background-color: #24303c;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid #1f53c5;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+        color: white;
+    
+    }  
+
+    .botons-formulario{
+        width: 100%;
+        border: none;
+        background-color: #1f53c5;
+        padding: 12px;
+        color: white;
+        margin-top: 38px;
+        font-size: 16px;
+    
+    
+    }
+
+
+
+
+
+
+
+
+
+@media (max-width:1770px){
+.logo{
+    width: 300px;
+}
+a, li{
+    color: white;
+    font-size: 28px;
+}
+.button1{
+    padding: 5px;
+    font-size: 43px;
+}
+
+.button2{
+    padding: 5px;
+    font-size: 43px;
+}
+.banner-text2{
+    font-size: 25px;
+}
+.detalles img{
+    width: 200px;
+}
+
+h3 {
+    font-size: 46px;
+}
+h2{
+    font-size: 250%;
+}
+.heading p{
+    margin-left: 0;
+    font-size: 200%;
+}
+.heading h2{
+    font-size: 300%;
+}
+.camaro-img {
+    margin-top: 15px;
+    width: 100%;
+ }
+ .descripcion{
+    flex-direction: column;
+ }
+ .galeria{
+    grid-template-columns: repeat(2, 1fr);
+ }
+p{
+    font-size: 30px;
+}
+video{
+    margin-top: -42px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1300px){
+    .checkbtn{
+        display: block;
+    }
+    .menu-icon{
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+    .nav-menu ul{
+        display: block;
+        position:fixed;
+        top: 80px;
+        left: -100%;
+        background: rgba(34, 34, 34, 0.664);
+        width: 100%;
+        height: 100vh;
+        right: 0;
+    }
+    .nav-menu ul li{
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    .nav-menu ul li:last-chiled{
+        background: none;
+        padding: 16px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+        transition: all 0.8s;
+    }
+    a, li{
+        color: aliceblue;
+    }
+    header{
+        background-image: url("../imagen/camaro/celu-11.jpg");
+    }
+    .img-2{
+        background-image: url("../imagen/mustan/celu22.jpg");
+    }
+    .img-3{
+        background-image: url("../imagen/dodge/celu2.jpg");
+    }
+
+    .banner-text2{
+        height: 97%;
+    }
+    .infos{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .descripcion{
+        flex-direction: column;
+        margin-top: -40px;
+    }
+    .camaro-img{
+        margin-top: 44px;
+        width: 109%;
+    }
+    h3{
+        font-size: 46px;
+
+    }
+    p{
+        font-size: 24px;
+    }
+    .galeria{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    section{
+        padding: none;
+     
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:588px){
+
+    .logo{
+        width: 200px;
+        margin-top: 2px;
+    }
+    .titulos{
+        font-size: 49px;
+    }
+    .banner-text2{
+        margin-left: -37px;
+    }
+    .camaro-img{
+        width: 353px;
+    }
+    video{
+        margin-top: -350px;
+    }
+}
+
+
+

@@ -1,0 +1,17 @@
+@mixin tamanos ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+    
+}
+video{
+    @include tamanos(100%,100vh );
+    margin-top: 5px;
+}
+
+.descripcion .camaro-img {
+    @include tamanos(88vh, 100%);
+
+    }
+
+
+

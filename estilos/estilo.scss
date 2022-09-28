@@ -1,0 +1,201 @@
+@import"../estilos/partials/variables";
+@import"../estilos/partials/reset";
+@import"../estilos/partials/body";
+@import"../estilos/partials/header";
+@import"../estilos/partials/hero";
+@import"../estilos/partials/botton";
+@import"../estilos/partials/main";
+@import"../estilos/partials/mixin";
+@import"../estilos/partials/footer";
+@import"../estilos/partials/mainContacto";
+
+
+@media (max-width:1770px){
+    header .logo{
+        width: 300px;
+    }
+    header a{ 
+        color: white;
+        font-size: 28px;
+    } 
+    .button1{
+        padding: 5px;
+        font-size: 43px;
+    }
+    
+    .button2{
+        padding: 5px;
+        font-size: 43px;
+    }
+    .banner-text2{
+        font-size: 25px;
+    }
+    .infos .detalles img {
+        width: 200px;
+    }
+    
+    .infos .detalles h3{
+        font-size: 45px;
+    }
+    h2{
+        font-size: 250%;
+    }
+    .heading p{
+        margin-left: 0;
+        font-size: 200%;
+    }
+    .sobre .heading h2{
+        font-size: 70px;
+        text-align: center
+    }
+
+    .descripcion .camaro-img{
+        width: 100%;
+    }
+
+     .descripcion{
+        flex-direction: column;
+    
+     }
+     .descripcion h4{
+        font-size: 50px;
+        margin-bottom: 20px;
+     }
+     .descripcion .text {
+        font-size: 27px;
+        margin: 10px;
+     }
+     .galeria{
+        grid-template-columns: repeat(2, 1fr);
+     }
+     .sobre .heading p {
+        margin-left: 2px;
+        display: inline-block;
+        font-size: 45px;
+     }
+    video{
+        margin-top: 10px;
+    }
+    }
+    
+    
+    
+
+    
+    @media (max-width:1300px){
+        header .checkbtn{
+            display: block;
+        }
+        .nav-menu ul{
+            display: block;
+            position:fixed;
+            top: 80px;
+            left: -100%;
+            background: rgba(34, 34, 34, 0.664);
+            width: 100%;
+            height: 100vh;
+            right: 0;
+        }
+        .nav-menu ul li{
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+        .nav-menu ul li:last-chiled{
+            background: none;
+            padding: 16px;
+        }
+        #check:checked ~ ul{
+            left: 0;
+            transition: all 0.8s;
+        }
+        .infos .detalles img{
+            width: 32%;
+        }
+        .infos .detalles h3 {
+            font-size: 46px;
+        }
+        .sobre .heading p {
+            display: inline-block;
+            font-size: 40px;
+        }
+        a, li{
+            color: aliceblue;
+        }
+        header{
+            background-image: url("../imagen/camaro/celu-11.jpg");
+        }
+        .img-2{
+            background-image: url("../imagen/mustan/celu22.jpg");
+        }
+        .img-3{
+            background-image: url("../imagen/dodge/celu2.jpg");
+        }
+    
+        .banner-text2{
+            height: 97%;
+        }
+        .infos{
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+        }
+        .descripcion{
+            flex-direction: column;
+            margin-top: 30px;
+        }
+        .camaro-img{
+            margin-top: 44px;
+            width: 109%;
+        }
+        video{
+            margin-top: 10px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (max-width:588px){
+    
+        header .logo{
+            width: 200px;
+            margin-top: 2px;
+        }
+        header .titulos{
+            font-size: 49px;
+        }
+        .img-2 .titulos{
+            font-size: 49px;
+        }
+        .img-3 .titulos {
+            font-size: 49px;
+        }
+        .camaro-img{
+            width: 353px;
+        }
+        video{
+            margin-top: -213px;
+        }
+        .sobre .heading h2 {
+            font-size: 45px;
+         }
+         header .checkbtn {
+            width: 58px;      
+            }
+    }
+    
+    
+    
+    
+
